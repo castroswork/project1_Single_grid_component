@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+html {
+  height:100%
+}
+div {
+  border-radius: 25px;
+  
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+.container {
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+
+/* STRUCTURE DIVS */
+
+
+#header {
+  text-align: center;
+  padding: 5%;
+  background-color: #FFDAB9;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#price {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #DEB887;
+}
+
+
+#why-us {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: beige;
+}
+
+/*WHY-US DIV DETAILS*/
+
+#why-us h3{
+  padding-bottom: 30px;
+  text-decoration: underline;
+}
+#why-us p{
+  font-size: small;
+}
+
+/*HEADER DIV DETAILS*/
+
+#header h3{
+  padding-bottom: 30px;
+  text-decoration: underline;
+}
+#header h5{
+  padding-bottom: 15px;
+}
+
+#header p{
+  font-size: small;
+
+}
+/*PRICE DIV DETAILS*/
+
+#price h3{
+  padding-bottom: 30px;
+  text-decoration: underline;
+}
+
+#price p{
+  font-size: small;
+}
+
+#capital {
+  font-weight: 600;
+  font-size: 25px;
+
+}
+#seethrough {
+  opacity: 0.5;;
+  
+}
+/*button*/
+.btn {
+  background-color:beige;
+  border: white;
+  color: #2F4F4F;
+  box-shadow: .1rem .1rem .9rem .2rem  rgba(92, 90, 90, 0.25);
+  position: absolute;
+  bottom:   10%;
+  right: 20%;
+  left:20%;
+  transition:0.5s;
+}
+
+.btn:hover {
+  background: var(--light-gray);
+  color: white;
+}
+
+
+/*FOOTER*/
+
+.footer{
+  margin-top: 10%;
+  background: white;
+  padding-top:0;
+  padding-bottom:0;
+  padding-left:5px;
+  padding-right:5px;
+  font-family: 'Karla', sans-serif;
+  width: 100%;
+}
+
+
+  
+.footer .row{
+  width:90%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+}
+  
+.footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  margin-left: 10px;
+}
+  
+.footer .row a:hover{
+  color:#fff;
+}
+  
+.footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+}
+  
